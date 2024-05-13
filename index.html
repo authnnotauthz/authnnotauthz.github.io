@@ -1,5 +1,5 @@
 <style>
-  /*
+/*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 /*
@@ -479,6 +479,9 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
@@ -504,8 +507,15 @@ video {
   -webkit-background-clip: text;
   background-clip: text;
 }
+.pt-4 {
+  padding-top: 1rem;
+}
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-7xl {
   font-size: 4.5rem;
@@ -518,8 +528,13 @@ video {
   color: transparent;
 }
 </style>
-<div class="flex justify-center items-center min-h-screen bg-[#FDF8F6]">
+<div class="flex justify-center items-center min-h-screen bg-[#FDF8F6] flex-col">
   <h1 class="text-7xl font-medium text-center">
     <a class="bg-gradient-to-r from-[#974EF2] to-[#FF953F] bg-clip-text text-transparent" href="https://www.permit.io">Not Authentication</a>
   </h1>
+  <h2 class="text-2xl pt-4">
+    <a href="https://io.permit.io/slack">
+      Get your Gen-Z experience 👉
+    </a>
+  </h2>
 </div>
